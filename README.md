@@ -1,7 +1,7 @@
 # Проект «pink»
 
 * Студент: [Екатерина Балахонова](https://htmlacademy.ru/profile/id46587).
-* Наставник: `Андрей Захарченко`.
+* Наставник: [Андрей Захарченко](https://htmlacademy.ru/profile/drewtsure).
 
 ### Немного о себе
 
