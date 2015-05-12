@@ -12,59 +12,61 @@
 
   <div class="wrapper">
 
-    <section class="intro   clearfix">
-      <div class="intro__menu-top">
-        <a class="intro__menu-top-logo" href="index.html"><img src="img/header-logo.png" alt="Pink" width="74" height="23"></a>
-        <a class="intro__menu-top-pick" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
-        <a class="intro__menu-top-close" href="#"><img src="img/close-menu.png" alt="Выход" width="23" height="22"></a>
+      <section class="intro   clearfix">
+      <div class="menu-top">
+        <a class="menu-top__logo" href="index.html"><img src="img/header-logo.png" alt="Pink" width="74" height="23"></a>
+        <a class="menu-top__pick" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
+        <a class="menu-top__close" href="#"><img src="img/close-menu.png" alt="Выход" width="23" height="22"></a>
       </div>
-      <nav class="intro__menu-inside">
-        <a href="/">Информация</a>
-        <a href="form.html">Возможности</a>
-        <a href="post.html">Отзывы</a>
-        <a href="/">Стоимость</a>
+      <nav class="menu-inside   menu-inside--close">
+        <a class="menu-inside__item" href="/">Информация</a>
+        <a class="menu-inside__item" href="form.html">Возможности</a>
+        <a class="menu-inside__item" href="post.html">Отзывы</a>
+        <a class="menu-inside__item" href="/">Стоимость</a>
       </nav>
       <h1 class="intro__title">Конкурс на самое безбашеное путешествие с Пинк</h1>
     </section>
 
-      <form action="" class="post">
-        <section>
-          <h2>Поделитесь своей историей и получите шанс вымграть ценный приз &mdash; 1000 миль на вашу бонусную карту!</h2>
-          <label for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
-          <label for="">Фамилия: *<input type="text" placeholder="Укажите фамилию" required></label>
-          <label for="">Отчество:<input type="text" placeholder="Ну и отчество тоже" required></label>
+      <form class="form" action="">
+        <h2 class="form__title">Поделитесь своей историей и получите шанс вымграть ценный приз &mdash; 1000 миль на вашу бонусную карту!</h2>
+        <section class="form__name">
+          <label class="form__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
+          <label class="form__title" for="">Фамилия: *<input type="text" placeholder="Укажите фамилию" required></label>
+          <label class="form__title" for="">Отчество:<input type="text" placeholder="Ну и отчество тоже" required></label>
         </section>
-        <section>
-          <h3>С каким приложением путешествовали? *</h3>
+        <section class="form__app">
+          <h3 class="form__title">С каким приложением путешествовали? *</h3>
           <label for=""><input type="radio" checked>Pink для iOS</label>
           <label for=""><input type="radio">Pink на Android</label>
           <label for=""><input type="radio">Windows Phone</label>
         </section>
-        <section>
-          <h3>Когда вы путешествовали? *</h3>
-          <label for=""><input type="date" placeholder="1 апреля 2015" required>Дата выезда</label>
-          <label for=""><input type="number" placeholder="10 дней" required>Продолжительность</label>
-          <label for=""><input type="date" placeholder="1 апреля 2015" required>Дата возвращения</label>
-          <label for=""><input type="number" placeholder="2 чел">Количество попутчиков *</label>
-          <div class="col-1">
-            <p>№</p>
+        <section class="post__date">
+          <h3 class="form__title">Когда вы путешествовали? *</h3>
+          <label class="form__title" for=""><input type="date" placeholder="1 апреля 2015" required>Дата выезда</label>
+          <label class="form__title" for=""><input type="number" placeholder="10 дней" required>Продолжительность</label>
+          <label class="form__title" for=""><input type="date" placeholder="1 апреля 2015" required>Дата возвращения</label>
+        </section>
+        <section class="post__tourist">
+          <label class="form__title" for=""><input type="number" placeholder="2 чел">Количество попутчиков *</label>
+          <div class="post__tourist-col-1">
+            <p class="form__title">№</p>
             <p>1</p>
           </div>
-          <div class="col-2">
-            <label for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
-            <label for="">Прозвище:<input type="text" placeholder="Ну как же без этого!" required></label>
+          <div class="post__tourist-col-2">
+            <label class="form__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
+            <label class="form__title" for="">Прозвище:<input type="text" placeholder="Ну как же без этого!" required></label>
           </div>
-          <div class="col-1">
-            <p>№</p>
+          <div class="post__tourist-col-1">
+            <p class="form__title">№</p>
             <p>2</p>
           </div>
-          <div class="col-2">
-            <label for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
-            <label for="">Прозвище:<input type="text" placeholder="Ну как же без этого!" required></label>
+          <div class="post__tourist-col-2">
+            <label class="form__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
+            <label class="form__title" for="">Прозвище:<input type="text" placeholder="Ну как же без этого!" required></label>
           </div>
         </section>
-        <section>
-          <h3>Ваши безбашенные достижения в путешествии</h3>
+        <section class="form__strides">
+          <h3 class="form__title">Ваши безбашенные достижения в путешествии</h3>
           <ul>
             <li><label for=""><input type="checkbox" checked>Сделал селфи с акулой</label></li>
             <li><label for=""><input type="checkbox" checked>Обгорел на пляже</label></li>
@@ -74,8 +76,8 @@
             <li><label for=""><input type="checkbox">Разгромил отель</label></li>
           </ul>
         </section>
-        <section>
-          <label for="">Ваши фотографии из поездки *<input type="file" placeholder="загрузить фото"></label>
+        <section class="post_foto">
+          <label class="form__title" for="">Ваши фотографии из поездки *<input type="file" placeholder="загрузить фото"></label>
           <ul>
             <li><img src="" alt="" width="68" height="67"></li>
             <li><img src="" alt="" width="68" height="67"></li>
@@ -88,37 +90,37 @@
           </ul>
         </section>
         <section>
-          <input type="submit" placeholder="Отправить форму">
-          <p>* &mdash; обязательные поля</p>
+          <input class="form-btn" type="submit" placeholder="Отправить форму">
+          <small class="form__remark">* &mdash; обязательные поля</small>
         </section>
       </form>
 
-    <footer>
-    <div>
-      <a href="index.html"><img src="img/footer-logo.png" alt="Pink"></a>
-      <div class="col footer-social">
-        <a href="#" class="btn-social twitter-icon">twitter</a>
-        <a href="#" class="btn-social fb-icon">facebook</a>
-        <a href="#" class="btn-social youtube-icon">youtube</a>
-      </div>
+    <footer class="page-footer">
+    <div class="page-footer__social">
+      <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.png" alt="Pink"></a>
+      <ul class="social-links">
+        <li><a class="social-links__item-twitter" href="">Мы в Twitter</a></li>
+        <li><a class="social-links__item-fb" href="">Мы на Facebook</a></li>
+        <li><a class="social-links__item-inst" href="">Мы в Инстаграмме</a></li>
+      </ul>
       <div>
-        <p class="copyright">Разработано<a href="https://htmlacademy.ru" class="block-copyright htmlacademy">htmlacademy</a></p>
-      </div>
-    </div>
+        <p class="footer-copyright">Разработано<a href="https://htmlacademy.ru" class="copyright-htmlacademy">htmlacademy</a></p>
+      </div
+    <  /div>
   </footer>
 
   </div>
 
-  <section class="error">
-    <h3>Что-то пошло не так!</h3>
-    <p>Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-    <input type="button" placeholder="ОК">
+  <section class="form-event   form-event--error">
+    <h3 class="form-event__title">Что-то пошло не так!</h3>
+    <p class="form-event__recital">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+    <input class="form-btn" type="button" placeholder="ОК">
   </section>
 
-  <section class="ok">
-    <h3>Ваша зяявка отправлена</h3>
-    <p>Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
-    <input type="button" placeholder="Закрыть окно">
+  <section class="form-event   form-event--ok">
+    <h3 class="form-event__title">Ваша зяявка отправлена</h3>
+    <p class="form-event__recital">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+    <input class="form-btn" type="button" placeholder="Закрыть окно">
   </section>
 
   <!-- <script src="js/script.js"></script> -->
