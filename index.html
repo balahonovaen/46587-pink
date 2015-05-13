@@ -14,27 +14,29 @@
 
     <section class="intro   clearfix">
       <div class="menu-top">
-        <a class="menu-top__logo" href="index.html"><img src="img/header-logo.png" alt="Pink" width="74" height="23"></a>
-        <a class="menu-top__pick" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
+        <a class="menu-top__logo" href="index.html"><img src="img/logo-menu.png" alt="Pink" width="74" height="23"></a>
+        <a class="menu-top__open" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
         <a class="menu-top__close" href="#"><img src="img/close-menu.png" alt="Выход" width="23" height="22"></a>
       </div>
-      <nav class="menu-inside   menu-inside--close">
-        <a class="menu-inside__item   menu-inside__item--active" href="/">Информация</a>
-        <a class="menu-inside__item" href="form.html">Возможности</a>
-        <a class="menu-inside__item" href="post.html">Отзывы</a>
-        <a class="menu-inside__item" href="/">Стоимость</a>
+      <nav class="menu-dropdown   menu-dropdown--close">
+        <ul>
+          <li class="menu-dropdown__item   menu-dropdown__item--active"><a class="menu-dropdown__item-link" href="/">Информация</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="form.html">Возможности</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="post.html">Отзывы</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="/">Стоимость</a></li>
+        </ul>
       </nav>
       <h1 class="intro__title">Взгляните на жизнь иначе!</h1>
     </section>
 
     <section class="app   clearfix">
       <h2 class="app__btn" href="#">Скачать приложение</h2>
-      <div class="app__logo">
-        <a class="app__logo-img" href=""><img src="img/apple-logo.png" alt="for Apple" width="46" height="57"></a>
-        <a class="app__logo-img" href=""><img src="img/android-logo.png" alt="for Androin" width="42" height="47"></a>
-        <a class="app__logo-img" href=""><img src="img/microsoft-logo.png" alt="for Windows" width="44" height="42"></a>
-      </div>
-      <p class="app__recital">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      <ul class="app__logo">
+        <li class="app__logo-item"><a class="app__logo-item-link" href=""><img src="img/apple-logo.png" alt="for Apple" width="46" height="57"></a></li>
+        <li class="app__logo-item"><a class="app__logo-item-link" href=""><img src="img/android-logo.png" alt="for Androin" width="42" height="47"></a></li>
+        <li class="app__logo-item"><a class="app__logo-item-link" href=""><img src="img/microsoft-logo.png" alt="for Windows" width="44" height="42"></a></li>
+      </ul>
+      <p class="app__descr">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
     </section>
  
     <section class="inform   clearfix">
@@ -57,75 +59,75 @@
             <p class="inform__feature-recital">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <figure class="inform__img">
+        <figure class="inform__figure">
           <img src="img/iphone-screen-3.png" alt="" width="157" height="320">
         </figure>
       </div>
     </section>
 
-    <section class="reviews   clearfix">
+    <section class="slider-reviews   clearfix">
       <div class="reviews__inner">
-        <div class="slider-reviews">
-          <div class="pagination">
-            <i class="pagination-active"></i>
-            <i></i>
-            <i></i>
+        <div class="reviews">
+          <div class="reviews__pagination">
+            <i class="reviews__pagination-link   reviews__pagination-link--active"></i>
+            <i class="reviews__pagination-link"></i>
+            <i class="reviews__pagination-link"></i>
           </div>
-          <article class="slider-reviews__item">
-            <h2 class="slider-reviews__title">Николай Петров</h2>
-            <p class="slider-reviews__recital">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+          <article class="reviews__item">
+            <h2 class="reviews__item-title">Николай Петров</h2>
+            <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </article>
-          <article class="slider-reviews__item">
-            <h2 class="slider-reviews__title">Николай Петров</h2>
-            <p class="slider-reviews__recital">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+          <article class="reviews__item">
+            <h2 class="reviews__item-title">Николай Петров</h2>
+            <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </article>
-          <article class="slider-reviews__item">
-            <h2 class="slider-reviews__title">Николай Петров</h2>
-            <p class="slider-reviews__recital">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+          <article class="reviews__item">
+            <h2 class="reviews__item-title">Николай Петров</h2>
+            <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="price   clearfix">
+    <section class="slider-price   clearfix">
       <div class="price__inner">
-        <div class="price-reviews">
-          <div class="pagination">
-            <i></i>
-            <i class="pagination-active"></i>
-            <i></i>
+        <div class="price">
+          <div class="price__pagination">
+            <i class="price__pagination-link"></i>
+            <i class="price__pagination-link   price__pagination-link--active"></i>
+            <i class="price__pagination-link"></i>
           </div>
-          <article class="price-reviews__item">
-            <div class="price-reviews__header">
-              <h2 class="price-reviews__title">База</h2>
-              <p class="price-reviews__value">1,99 USD</p>
+          <article class="price__item">
+            <div class="price__item-header">
+              <h2 class="price__item-title">База</h2>
+              <p class="price__item-value">1,99 USD</p>
             </div>
-            <ul class="price-reviews__filter">
-              <li class="price-rewiews__point">Розовый фильтр</li>
-              <li class="price-rewiews__point   price-rewiews__point--not">Смайлики</li>
-              <li class="price-rewiews__point   price-rewiews__point--not">Комментарии</li>
+            <ul class="price__item-filter">
+              <li class="price__filter-point">Розовый фильтр</li>
+              <li class="price__filter-point   price__filter-point--not">Смайлики</li>
+              <li class="price__filter-point   price__filter-point--not">Комментарии</li>
             </ul>
           </article>
-          <article class="price-reviews__item">
-            <div class="price-reviews__header">
-              <h2 class="price-reviews__title">Стандарт</h2>
-              <p class="price-reviews__value">3,99 USD</p>
+          <article class="price__item">
+            <div class="price__item-header">
+              <h2 class="price__item-title">Стандарт</h2>
+              <p class="price__item-value">3,99 USD</p>
             </div>
-            <ul class="price-reviews__filter">
-              <li class="price-rewiews__point">Розовый фильтр</li>
-              <li class="price-rewiews__point">Смайлики</li>
-              <li class="price-rewiews__point   price-rewiews__point--not">Комментарии</li>
+            <ul class="price__filter">
+              <li class="price__filter-point">Розовый фильтр</li>
+              <li class="price__filter-point">Смайлики</li>
+              <li class="price__filter-point   price__filter-point--not">Комментарии</li>
             </ul>
           </article>
-          <article class="price-reviews__item">
-            <div class="price-reviews__header">
-              <h2 class="price-reviews__title">Анлим</h2>
-              <p class="price-reviews__value">9,99 USD</p>
+          <article class="price__item">
+            <div class="price__item-header">
+              <h2 class="price__item-title">Анлим</h2>
+              <p class="price__item-value">9,99 USD</p>
             </div>
-            <ul class="price-reviews__filter">
-              <li class="price-rewiews__point">Розовый фильтр</li>
-              <li class="price-rewiews__point">Смайлики</li>
-              <li class="price-rewiews__point">Комментарии</li>
+            <ul class="price__filter">
+              <li class="price__filter-point">Розовый фильтр</li>
+              <li class="price__filter-point">Смайлики</li>
+              <li class="price__filter-point">Комментарии</li>
             </ul>
           </article>
         </div>
@@ -136,21 +138,21 @@
       <div class="contacts__title">
         <h2>Остались вопросы?</h2>
         <h2>Свяжитесь с нами!</h2>
-        <ul class="contacts__item">
-          <li>
-            <h3 class="contacts__item-title">Звоните:</h3>
-            <a  class="contacts__recital" href="tel:+7(812)555-66-66">+ 7 (812) 555-66-66</a>
-          </li>
-          <li>
-            <h3 class="contacts__item-title">Пишите:</h3>
-            <a  class="contacts__recital" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </li>
-          <li>
-            <h3 class="contacts__item-title">Приезжайте в гости:</h3>
-            <span class="contacts__recital" >ул. Большая Конюшенная, 19/8</span>
-          </li>
-        </ul>
       </div>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <h3 class="contacts__item-title">Звоните:</h3>
+          <a  class="contacts__item-descr" href="tel:+7(812)555-66-66">+ 7 (812) 555-66-66</a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__item-title">Пишите:</h3>
+          <a  class="contacts__item-descr" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__item-title">Приезжайте в гости:</h3>
+          <span class="contacts__item-descr" >ул. Большая Конюшенная, 19/8</span>
+        </li>
+      </ul>
     </section>
 
   </div>

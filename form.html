@@ -14,79 +14,81 @@
 
       <section class="intro   clearfix">
       <div class="menu-top">
-        <a class="menu-top__logo" href="index.html"><img src="img/header-logo.png" alt="Pink" width="74" height="23"></a>
-        <a class="menu-top__pick" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
+        <a class="menu-top__logo" href="index.html"><img src="img/logo-menu.png" alt="Pink" width="74" height="23"></a>
+        <a class="menu-top__open" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
         <a class="menu-top__close" href="#"><img src="img/close-menu.png" alt="Выход" width="23" height="22"></a>
       </div>
-      <nav class="menu-inside   menu-inside--close">
-        <a class="menu-inside__item" href="/">Информация</a>
-        <a class="menu-inside__item" href="form.html">Возможности</a>
-        <a class="menu-inside__item" href="post.html">Отзывы</a>
-        <a class="menu-inside__item" href="/">Стоимость</a>
+      <nav class="menu-dropdown   menu-dropdown--close">
+        <ul>
+          <li class="menu-dropdown__item   menu-dropdown__item--active"><a class="menu-dropdown__item-link" href="/">Информация</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="form.html">Возможности</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="post.html">Отзывы</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="/">Стоимость</a></li>
+        </ul>
       </nav>
       <h1 class="intro__title">Конкурс на самое безбашеное путешествие с Пинк</h1>
     </section>
 
       <form class="form" action="">
         <h2 class="form__title">Поделитесь своей историей и получите шанс вымграть ценный приз &mdash; 1000 миль на вашу бонусную карту!</h2>
-        <section class="form__name">
-          <label class="form__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
-          <label class="form__title" for="">Фамилия: *<input type="text" placeholder="Укажите фамилию" required></label>
-          <label class="form__title" for="">Отчество:<input type="text" placeholder="Ну и отчество тоже" required></label>
+        <section class="form-name">
+          <label class="form-name__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
+          <label class="form-name__title" for="">Фамилия: *<input type="text" placeholder="Укажите фамилию" required></label>
+          <label class="form-name__title" for="">Отчество:<input type="text" placeholder="Ну и отчество тоже" required></label>
         </section>
-        <section class="form__app">
-          <h3 class="form__title">С каким приложением путешествовали? *</h3>
-          <label for=""><input type="radio" checked>Pink для iOS</label>
-          <label for=""><input type="radio">Pink на Android</label>
-          <label for=""><input type="radio">Windows Phone</label>
+        <section class="form-app">
+          <h3 class="form-app__title">С каким приложением путешествовали? *</h3>
+          <label class="form-app__item" for=""><input type="radio" checked>Pink для iOS</label>
+          <label class="form-app__item" for=""><input type="radio">Pink на Android</label>
+          <label class="form-app__item" for=""><input type="radio">Windows Phone</label>
         </section>
-        <section class="post__date">
-          <h3 class="form__title">Когда вы путешествовали? *</h3>
-          <label class="form__title" for=""><input type="date" placeholder="1 апреля 2015" required>Дата выезда</label>
-          <label class="form__title" for=""><input type="number" placeholder="10 дней" required>Продолжительность</label>
-          <label class="form__title" for=""><input type="date" placeholder="1 апреля 2015" required>Дата возвращения</label>
+        <section class="form-date">
+          <h3 class="form-date__title">Когда вы путешествовали? *</h3>
+          <label class="form-date__item" for=""><input type="date" placeholder="1 апреля 2015" required>Дата выезда</label>
+          <label class="form-date__item" for=""><input type="number" placeholder="10 дней" required>Продолжительность</label>
+          <label class="form-date__item" for=""><input type="date" placeholder="1 апреля 2015" required>Дата возвращения</label>
         </section>
-        <section class="post__tourist">
-          <label class="form__title" for=""><input type="number" placeholder="2 чел">Количество попутчиков *</label>
-          <div class="post__tourist-col-1">
-            <p class="form__title">№</p>
-            <p>1</p>
+        <section class="form-tourist">
+          <label class="form-tourist__title" for=""><input type="number" placeholder="2 чел">Количество попутчиков *</label>
+          <div class="form-tourist__col-1">
+            <div class="form-tourist__num">№</div>
+            <div>1</div>
           </div>
-          <div class="post__tourist-col-2">
-            <label class="form__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
-            <label class="form__title" for="">Прозвище:<input type="text" placeholder="Ну как же без этого!" required></label>
+          <div class="form-tourist__col-2">
+            <label class="form-tourist__label" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
+            <label class="form-tourist__label" for="">Прозвище:<input type="text" placeholder="Ну как же без этого!"></label>
           </div>
-          <div class="post__tourist-col-1">
-            <p class="form__title">№</p>
-            <p>2</p>
+          <div class="form-tourist__col-1">
+            <div class="form-tourist__num">№</div>
+            <div>2</div>
           </div>
-          <div class="post__tourist-col-2">
-            <label class="form__title" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
-            <label class="form__title" for="">Прозвище:<input type="text" placeholder="Ну как же без этого!" required></label>
+          <div class="form-tourist__col-2">
+            <label class="form-tourist__item" for="">Имя: *<input type="text" placeholder="Введите ваше имя" required></label>
+            <label class="form-tourist__item" for="">Прозвище:<input type="text" placeholder="Ну как же без этого!"></label>
           </div>
         </section>
-        <section class="form__strides">
-          <h3 class="form__title">Ваши безбашенные достижения в путешествии</h3>
+        <section class="form-strides">
+          <h3 class="form-strides__title">Ваши безбашенные достижения в путешествии</h3>
           <ul>
-            <li><label for=""><input type="checkbox" checked>Сделал селфи с акулой</label></li>
-            <li><label for=""><input type="checkbox" checked>Обгорел на пляже</label></li>
-            <li><label for=""><input type="checkbox">Видел Чака Норриса</label></li>
-            <li><label for=""><input type="checkbox">Накупил Сувениров</label></li>
-            <li><label for=""><input type="checkbox" checked>Удержал башню</label></li>
-            <li><label for=""><input type="checkbox">Разгромил отель</label></li>
+            <li><label class="form-strides__item" for=""><input type="checkbox" checked>Сделал селфи с акулой</label></li>
+            <li><label class="form-strides__item" for=""><input type="checkbox" checked>Обгорел на пляже</label></li>
+            <li><label class="form-strides__item" for=""><input type="checkbox">Видел Чака Норриса</label></li>
+            <li><label class="form-strides__item" for=""><input type="checkbox">Накупил Сувениров</label></li>
+            <li><label class="form-strides__item" for=""><input type="checkbox" checked>Удержал башню</label></li>
+            <li><label class="form-strides__item" for=""><input type="checkbox">Разгромил отель</label></li>
           </ul>
         </section>
-        <section class="post_foto">
-          <label class="form__title" for="">Ваши фотографии из поездки *<input type="file" placeholder="загрузить фото"></label>
+        <section class="form-foto">
+          <label class="form-foto__title" for="">Ваши фотографии из поездки *<input type="file" placeholder="загрузить фото"></label>
           <ul>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
-            <li><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
+            <li class="form-foto__item"><img src="" alt="" width="68" height="67"></li>
           </ul>
         </section>
         <section>
@@ -96,18 +98,16 @@
       </form>
 
     <footer class="page-footer">
-    <div class="page-footer__social">
-      <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.png" alt="Pink"></a>
-      <ul class="social-links">
-        <li><a class="social-links__item-twitter" href="">Мы в Twitter</a></li>
-        <li><a class="social-links__item-fb" href="">Мы на Facebook</a></li>
-        <li><a class="social-links__item-inst" href="">Мы в Инстаграмме</a></li>
-      </ul>
-      <div>
-        <p class="footer-copyright">Разработано<a href="https://htmlacademy.ru" class="copyright-htmlacademy">htmlacademy</a></p>
-      </div
-    <  /div>
-  </footer>
+      <div class="page-footer__inner">
+        <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.png" alt="Pink"></a>
+        <ul class="social-links">
+          <li><a class="social-links__twitter" href="">Мы в Twitter</a></li>
+          <li><a class="social-links__facebook" href="">Мы на Facebook</a></li>
+          <li><a class="social-links__instagram" href="">Мы в Инстаграмме</a></li>
+        </ul>
+        <div class="footer-copyright">Разработано <a href="https://htmlacademy.ru" class="copyright-htmlacademy">htmlacademy</a></div>
+      </div>
+    </footer>
 
   </div>
 

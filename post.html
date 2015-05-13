@@ -14,71 +14,70 @@
 
     <section class="intro   clearfix">
       <div class="menu-top">
-        <a class="menu-top__logo" href="index.html"><img src="img/header-logo.png" alt="Pink" width="74" height="23"></a>
-        <a class="menu-top__pick" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
+        <a class="menu-top__logo" href="index.html"><img src="img/logo-menu.png" alt="Pink" width="74" height="23"></a>
+        <a class="menu-top__open" href="/"><img src="img/open-menu.png" alt="Меню" width="50" height="24"></a>
         <a class="menu-top__close" href="#"><img src="img/close-menu.png" alt="Выход" width="23" height="22"></a>
       </div>
-      <nav class="menu-inside   menu-inside--close">
-        <a class="menu-inside__item" href="/">Информация</a>
-        <a class="menu-inside__item" href="form.html">Возможности</a>
-        <a class="menu-inside__item" href="post.html">Отзывы</a>
-        <a class="menu-inside__item" href="/">Стоимость</a>
+      <nav class="menu-dropdown   menu-dropdown--close">
+        <ul>
+          <li class="menu-dropdown__item   menu-dropdown__item--active"><a class="menu-dropdown__item-link" href="/">Информация</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="form.html">Возможности</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="post.html">Отзывы</a></li>
+          <li class="menu-dropdown__item"><a class="menu-dropdown__item-link" href="/">Стоимость</a></li>
+        </ul>
       </nav>
       <h1 class="intro__title">Блог путешественников, пользователей Пинк</h1>
     </section>
 
-    <div class="post-inner   clearfix">
+    <div class="post   clearfix">
       <section class="post-header">
         <h1 class="post-header__title">Антон и Надя в Тайланде</h1>
-        <div class="post-header__remark">Опубликовано: 6 месяцев назад</div>
-        <p class="post-header__pecital">Читайте рассказ о том, как семейная пара посещала Тайланд, стараясь максимально избегать избитых туристических мест и районов.</p>
+        <div class="post-header__date">Опубликовано: 6 месяцев назад</div>
+        <p class="post-header__descr">Читайте рассказ о том, как семейная пара посещала Тайланд, стараясь максимально избегать избитых туристических мест и районов.</p>
       </section>
-      <section class="post__story">
-        <h2 class="post__title">Предыстория</h2>
-        <p class="post__recital">В Азию нам хотелось попасть уже давно, но все время что-то останавливало. Также не давал покоя вопрос гигиены и чистоты вокруг. Были сомнения и на счет местной еды. Однако, увидев выгодные билеты на <a href="https://skyscanner.ru">skyscanner.ru</a>мы все-таки решились!</p>
+      <section class="post-story">
+        <h2 class="post-story__title">Предыстория</h2>
+        <p class="post-story__descr">В Азию нам хотелось попасть уже давно, но все время что-то останавливало. Также не давал покоя вопрос гигиены и чистоты вокруг. Были сомнения и на счет местной еды. Однако, увидев выгодные билеты на <a href="https://skyscanner.ru">skyscanner.ru</a>мы все-таки решились!</p>
       </section>
-      <section class="post__hotel">
-        <h2 class="post__title">Выбор отеля</h2>
-        <p class="post__recital">В Тайланде огромный разброс по стоимости отелей и так же сильно отличаются и они сами. Так как достопримечательности щедро разбросаны по всей стране, то чтобы посетить их все, нужно пожить в нескольких разных городах. В итоге мы остановились на следующих:</p>
-        <ul>
+      <section class="post-hotel">
+        <h2 class="post-hotel__title">Выбор отеля</h2>
+        <p class="post-hotel__descr">В Тайланде огромный разброс по стоимости отелей и так же сильно отличаются и они сами. Так как достопримечательности щедро разбросаны по всей стране, то чтобы посетить их все, нужно пожить в нескольких разных городах. В итоге мы остановились на следующих:</p>
+        <ul class="post-hotel__list">
           <li>Point Yamu by Como (Пхукет)</li>
           <li>Amari Vogue Hotel (Краби)</li>
           <li>Photo Hotel (Пхукет)</li>
         </ul>
-        <p>В выборе отелей мы учитывали как расположение, так и отзывы на Tripadvisor. Например, вот, что пишут люди про Point Yamu:</p>
-        <section class="post-comment">
-          <p class="post__recital">Замечательное место,в которое хочется вернуться обязательно! Персонал отзывчивый и внимательный,еда-потрясающая. Отель расположен в тихом и уединенном месте-в чем вся и прелесть. СПА отличный. Потрясающие виды.</p>
+        <p class="post-hotel__descr">В выборе отелей мы учитывали как расположение, так и отзывы на Tripadvisor. Например, вот, что пишут люди про Point Yamu:</p>
+        <section class="post-hotel__comment">
+          <p class="post-hotel__comment-descr">Замечательное место,в которое хочется вернуться обязательно! Персонал отзывчивый и внимательный,еда-потрясающая. Отель расположен в тихом и уединенном месте-в чем вся и прелесть. СПА отличный. Потрясающие виды.</p>
           <small>Олег, г. Москва</small>
         </section>
       </section>
-      <section class="post__food">
-        <h2 class="post__title">Местная еда</h2>
-        <p class="post__recital">Существует мнение, что вся еда в Тайланде экстремально острая. Это мнение сложилось не напрасно! Но не стоит делать из этого проблему — просто попросите сделать ваше блюдо «not spicy». Желающие могут попробовать жареных тараканчиков. Мы не рискнули.</p>
+      <section class="post-food">
+        <h2 class="post-food__title">Местная еда</h2>
+        <p class="post-food__descr">Существует мнение, что вся еда в Тайланде экстремально острая. Это мнение сложилось не напрасно! Но не стоит делать из этого проблему — просто попросите сделать ваше блюдо «not spicy». Желающие могут попробовать жареных тараканчиков. Мы не рискнули.</p>
       </section>
     </div>
-    <div class="post-paginator">
+
+    <div class="post-pagination">
       <ul>
-        <li><a class="post-paginator__btn" href="#prev">пред.</a></li>
-        <li><a class="post-paginator__btn" href="#next">след.</a></li>
-        <li><a class="post-paginator__btn   post-paginator__btn--back" href="blog.html">назад к списку</a></li>
+        <li><a class="post-pagination__btn" href="#prev">пред.</a></li>
+        <li><a class="post-pagination__btn" href="#next">след.</a></li>
+        <li><a class="post-pagination__btn   post-pagination__btn--back" href="blog.html">назад к списку</a></li>
       </ul>
     </div>
 
-  </div>
-
-  <footer class="page-footer">
-    <div class="page-footer__social">
-      <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.png" alt="Pink"></a>
-      <ul class="social-links">
-        <li><a class="social-links__item-twitter" href="">Мы в Twitter</a></li>
-        <li><a class="social-links__item-fb" href="">Мы на Facebook</a></li>
-        <li><a class="social-links__item-inst" href="">Мы в Инстаграмме</a></li>
-      </ul>
-      <div>
-        <p class="footer-copyright">Разработано<a href="https://htmlacademy.ru" class="copyright-htmlacademy">htmlacademy</a></p>
-      </div
-    <  /div>
-  </footer>
+    <footer class="page-footer">
+      <div class="page-footer__inner">
+        <a class="page-footer__logo" href="index.html"><img src="img/footer-logo.png" alt="Pink"></a>
+        <ul class="social-links">
+          <li><a class="social-links__twitter" href="">Мы в Twitter</a></li>
+          <li><a class="social-links__facebook" href="">Мы на Facebook</a></li>
+          <li><a class="social-links__instagram" href="">Мы в Инстаграмме</a></li>
+        </ul>
+        <div class="footer-copyright">Разработано <a href="https://htmlacademy.ru" class="copyright-htmlacademy">htmlacademy</a></div>
+      </div>
+    </footer>
 
   </div>
 
