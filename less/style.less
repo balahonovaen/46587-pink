@@ -161,15 +161,18 @@ a:hover{
 //inform
 
 .inform {
-    background: @bg-body;
+    background-color: @bg-body;
+    background: url('../img/bg-inform.png') 0 200px no-repeat;
 
     &__title {
+        margin-bottom: 30px;
+        padding: 35px;
+    }
+
+    &__title-item {
         font-size: @text-size-h1;
         font-weight: @weight-h1;
-        line-height: auto;
         color: @color-base;
-        margin-bottom: 80px;
-        padding: 58px;
     }
 
     &__feature {
@@ -290,7 +293,7 @@ a:hover{
     }
 }
 .contacts {
-    background: url('../img/bg-contacts.jpg');
+    background: url('../img/bg-map.jpg');
     background-color: @bg-feature;
     height: 615px;
 
