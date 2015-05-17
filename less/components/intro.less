@@ -1,0 +1,58 @@
+.intro {
+    min-height: 456px;
+    background: url('../img/intro-bg.jpg') @bg-menu no-repeat;
+    color: @color-light;
+
+    &__title {
+        color: @color-light;
+        font-weight: @weight-h1;
+        font-size: @text-size-h1;
+        padding: 20px 45px;
+    }
+}
+.menu-top {
+    height: 66px;
+    background: rgba(0,0,0,.3);
+
+    &__logo {
+        float: left;
+        padding: 19px 20px;
+    }
+
+    &__open {
+        float: right;
+        padding: 19px 20px;
+    }
+
+    &__close {
+        display: none;
+        float: right;
+        padding: 20px 25px;
+    }
+}
+.menu-dropdown {
+    display: block;
+    position: absolute;
+    left: center;
+    top: 0px;
+    background: @bg-menu;
+
+    &__item {
+        display: none;
+        width: 320px;
+        padding: 21px 0;
+        font-weight: @weight-menu;
+        font-size: @text-size-menu;
+        text-transform: uppercase;
+        -moz-box-shadow: inset 0 -1px 2px -1px #495562,
+                               0 1px 1px -1px #000;
+        -webkit-box-shadow: inset 0 -1px 2px -1px #495562,
+                                  0 1px 1px -1px #000;
+        box-shadow: inset 0 -1px 2px -1px #495562,
+                          0 1px 1px -1px #000;
+    }
+
+    &__iten-link {
+        padding: 20px;
+    }
+}
