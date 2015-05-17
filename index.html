@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <title>HTML Academy: pink</title>
+  <link rel="stylesheet" href="css/min-normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -46,17 +47,17 @@
       </div>
       <div class="inform__feature">
         <ul>
-          <li>
-            <h3 class="inform__feature-title">Поднимает настроение</h3>
-            <p class="inform__feature-descr">Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
+          <li class="inform__feature-item">
+            <h3 class="inform__feature-item-title">Поднимает настроение</h3>
+            <p class="inform__feature-item-descr">Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
           </li>
-          <li>
-            <h3 class="inform__feature-title">Меняет мир вокруг</h3>
-            <p class="inform__feature-descr">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          <li class="inform__feature-item">
+            <h3 class="inform__feature-item-title">Меняет мир вокруг</h3>
+            <p class="inform__feature-item-descr">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
           </li>
-          <li>
-            <h3 class="inform__feature-title">Заводит новых друзей</h3>
-            <p class="inform__feature-descr">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+          <li class="inform__feature-item">
+            <h3 class="inform__feature-item-title">Заводит новых друзей</h3>
+            <p class="inform__feature-item-descr">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
         <figure class="inform__figure">
@@ -69,20 +70,20 @@
       <div class="reviews__inner">
         <div class="reviews">
           <div class="reviews__pagination">
-            <i class="reviews__pagination-link   reviews__pagination-link--active"></i>
-            <i class="reviews__pagination-link"></i>
-            <i class="reviews__pagination-link"></i>
+            <label class="reviews__pagination-link   reviews__pagination-link--active" for="btn-1"><input type="radio" id="btn-1" name="toggle" checked></label>
+            <label  class="reviews__pagination-link" for="btn-2"><input type="radio" id="btn-2" name="toggle"></label>
+            <label  class="reviews__pagination-link" for="btn-3"><input type="radio" id="btn-3" name="toggle"></label>
           </div>
           <article class="reviews__item">
             <h2 class="reviews__item-title">Николай Петров</h2>
             <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </article>
           <article class="reviews__item">
-            <h2 class="reviews__item-title">Николай Петров</h2>
+            <h2 class="reviews__item-title">Алексей Петров</h2>
             <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </article>
           <article class="reviews__item">
-            <h2 class="reviews__item-title">Николай Петров</h2>
+            <h2 class="reviews__item-title">Михаил Петров</h2>
             <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </article>
         </div>
@@ -93,9 +94,9 @@
       <div class="price__inner">
         <div class="price">
           <div class="price__pagination">
-            <i class="price__pagination-link"></i>
-            <i class="price__pagination-link   price__pagination-link--active"></i>
-            <i class="price__pagination-link"></i>
+            <label class="price__pagination-link" for="btn-1"><input type="radio" id="btn-1" name="toggle" checked></label>
+            <label  class="price__pagination-link   price__pagination-link--active" for="btn-2"><input type="radio" id="btn-2" name="toggle"></label>
+            <label  class="price__pagination-link" for="btn-3"><input type="radio" id="btn-3" name="toggle"></label>
           </div>
           <article class="price__item">
             <div class="price__item-header">
