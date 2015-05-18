@@ -1,0 +1,116 @@
+//slider-price
+
+.slider-price {
+    position: relative;
+    z-index: 1;
+    background-color: @bg-body;
+    background: url('../img/bg-price.png') 0 0 no-repeat;
+}
+
+.price {
+    position: relative;
+    height: 480px;
+    width: 280px;
+    margin: 0 auto;
+	
+
+    & input[type=radio] {
+        display: none;
+    }
+
+    &__pagination {
+        position: absolute;
+        bottom: 45px;
+        left: 50%;
+        width: 180px;
+        margin-left: -100px;
+        text-align: center;
+
+        #price-btn-1:checked ~ & label[for="price-btn-1"],
+        #price-btn-2:checked ~ & label[for="price-btn-2"],
+        #price-btn-3:checked ~ & label[for="price-btn-3"] { 
+            background: @bg-body;
+            border: 3px solid @bg-menu;
+        }
+    }
+
+    &__pagination-link {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        margin: 0 3px;
+        background: @bg-slider;
+        vertical-align: middle;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+.price-slides {
+    &__item {
+    	margin-top: 90px;
+        padding-top: 0px;
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 280px;
+        height: 280px;
+        overflow: hidden;
+        display: none;
+        border: 2px solid @border-price;
+    }
+
+    &__item-header {
+    	display: block;
+    	height: 100px;
+    	width: 280px;
+    	background-color: @bg-menu;
+
+    	&--hit {
+    		background: url('../img/hit.png') no-repeat @bg-menu;
+    	}
+    } 
+
+    &__item-title {
+    	font-size: @text-size-menu;
+    	line-height: @line-height-30;
+    	color: @color-light;
+    	text-transform: uppercase;
+    	padding-top: 20px;
+    	margin: 0;
+    }
+
+    &__item-value {
+    	font-size: @text-size-h1;
+    	line-height: @line-height-30;
+    	color: @color-light;
+    	font-weight: @weight-h1;
+    }
+
+    #price-btn-1:checked ~ & &__item:nth-child(1) { 
+        display: table;
+    }
+    #price-btn-2:checked ~ & &__item:nth-child(2) { 
+        display: table;
+    }
+    #price-btn-3:checked ~ & &__item:nth-child(3) { 
+        display: table;
+    }
+
+    &__filter-point {
+    	display: block;
+    	font-size: @text-size-base;
+    	line-height: @line-height-30;
+    	color: @color-base;
+    	text-transform: uppercase;
+    	padding: 15px 0;
+        border: 2px solid @border-price;
+        border-collapse: collapse;
+        text-align: left;
+        padding-left: 20px;
+        background: url('../img/yes.png') 220px 15px no-repeat;
+
+        &--not {
+        	background: url('../img/no.png') 220px 15px no-repeat;
+        }
+    }
+}

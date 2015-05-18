@@ -69,23 +69,28 @@
     <section class="slider-reviews   clearfix">
       <div class="reviews__inner">
         <div class="reviews">
+          <input type="radio" id="reviews-btn-1" name="reviews-toggle" checked>
+          <input type="radio" id="reviews-btn-2" name="reviews-toggle">
+          <input type="radio" id="reviews-btn-3" name="reviews-toggle">
           <div class="reviews__pagination">
-            <label class="reviews__pagination-link   reviews__pagination-link--active" for="btn-1"><input type="radio" id="btn-1" name="toggle" checked></label>
-            <label  class="reviews__pagination-link" for="btn-2"><input type="radio" id="btn-2" name="toggle"></label>
-            <label  class="reviews__pagination-link" for="btn-3"><input type="radio" id="btn-3" name="toggle"></label>
+            <label class="reviews__pagination-link" for="reviews-btn-1"></label>
+            <label class="reviews__pagination-link" for="reviews-btn-2"></label>
+            <label class="reviews__pagination-link" for="reviews-btn-3"></label>
           </div>
-          <article class="reviews__item">
-            <h2 class="reviews__item-title">Николай Петров</h2>
-            <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
-          </article>
-          <article class="reviews__item">
-            <h2 class="reviews__item-title">Алексей Петров</h2>
-            <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
-          </article>
-          <article class="reviews__item">
-            <h2 class="reviews__item-title">Михаил Петров</h2>
-            <p class="reviews__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
-          </article>
+          <div class="reviews-slides">
+            <article class="reviews-slides__item">
+              <h2 class="reviews-slides__item-title">Николай Петров</h2>
+              <p class="reviews-slides__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+            </article>
+            <article class="reviews-slides__item">
+              <h2 class="reviews-slides__item-title">Алексей Петров</h2>
+              <p class="reviews-slides__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+            </article>
+            <article class="reviews-slides__item">
+              <h2 class="reviews-slides__item-title">Михаил Петров</h2>
+              <p class="reviews-slides__item-descr">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -93,52 +98,57 @@
     <section class="slider-price   clearfix">
       <div class="price__inner">
         <div class="price">
+          <input type="radio" id="price-btn-1" name="price-toggle">
+          <input type="radio" id="price-btn-2" name="price-toggle" checked>
+          <input type="radio" id="price-btn-3" name="price-toggle"> 
           <div class="price__pagination">
-            <label class="price__pagination-link" for="btn-1"><input type="radio" id="btn-1" name="toggle" checked></label>
-            <label  class="price__pagination-link   price__pagination-link--active" for="btn-2"><input type="radio" id="btn-2" name="toggle"></label>
-            <label  class="price__pagination-link" for="btn-3"><input type="radio" id="btn-3" name="toggle"></label>
+            <label class="price__pagination-link" for="price-btn-1"></label>
+            <label  class="price__pagination-link" for="price-btn-2"></label>
+            <label  class="price__pagination-link" for="price-btn-3"></label>
           </div>
-          <article class="price__item">
-            <div class="price__item-header">
-              <h2 class="price__item-title">База</h2>
-              <p class="price__item-value">1,99 USD</p>
-            </div>
-            <ul class="price__item-filter">
-              <li class="price__filter-point">Розовый фильтр</li>
-              <li class="price__filter-point   price__filter-point--not">Смайлики</li>
-              <li class="price__filter-point   price__filter-point--not">Комментарии</li>
-            </ul>
-          </article>
-          <article class="price__item">
-            <div class="price__item-header">
-              <h2 class="price__item-title">Стандарт</h2>
-              <p class="price__item-value">3,99 USD</p>
-            </div>
-            <ul class="price__filter">
-              <li class="price__filter-point">Розовый фильтр</li>
-              <li class="price__filter-point">Смайлики</li>
-              <li class="price__filter-point   price__filter-point--not">Комментарии</li>
-            </ul>
-          </article>
-          <article class="price__item">
-            <div class="price__item-header">
-              <h2 class="price__item-title">Анлим</h2>
-              <p class="price__item-value">9,99 USD</p>
-            </div>
-            <ul class="price__filter">
-              <li class="price__filter-point">Розовый фильтр</li>
-              <li class="price__filter-point">Смайлики</li>
-              <li class="price__filter-point">Комментарии</li>
-            </ul>
-          </article>
+          <div class="price-slides">
+            <article class="price-slides__item">
+              <div class="price-slides__item-header">
+                <h2 class="price-slides__item-title">База</h2>
+                <p class="price-slides__item-value">1,99 USD</p>
+              </div>
+              <ul class="price-slides__item-filter">
+                <li class="price-slides__filter-point">Розовый фильтр</li>
+                <li class="price-slides__filter-point   price-slides__filter-point--not">Смайлики</li>
+                <li class="price-slides__filter-point   price-slides__filter-point--not">Комментарии</li>
+              </ul>
+            </article>
+            <article class="price-slides__item">
+              <div class="price-slides__item-header   price-slides__item-header--hit">
+                <h2 class="price-slides__item-title">Стандарт</h2>
+                <p class="price-slides__item-value">3,99 USD</p>
+              </div>
+              <ul class="price-slides__filter">
+                <li class="price-slides__filter-point">Розовый фильтр</li>
+                <li class="price-slides__filter-point">Смайлики</li>
+                <li class="price-slides__filter-point   price-slides__filter-point--not">Комментарии</li>
+              </ul>
+            </article>
+            <article class="price-slides__item">
+              <div class="price-slides__item-header">
+                <h2 class="price-slides__item-title">Анлим</h2>
+                <p class="price-slides__item-value">9,99 USD</p>
+              </div>
+              <ul class="price-slides__filter">
+                <li class="price-slides__filter-point">Розовый фильтр</li>
+                <li class="price-slides__filter-point">Смайлики</li>
+                <li class="price-slides__filter-point">Комментарии</li>
+              </ul>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="contacts">
       <div class="contacts__title">
-        <h2>Остались вопросы?</h2>
-        <h2>Свяжитесь с нами!</h2>
+        <h2 class="contacts__title-item">Остались вопросы?</h2>
+        <h2 class="contacts__title-item">Свяжитесь с нами!</h2>
       </div>
       <ul class="contacts__list">
         <li class="contacts__item">
