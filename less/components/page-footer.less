@@ -1,0 +1,53 @@
+//page-footer
+
+.page-footer {
+
+	&__inner {
+		display: block;
+		padding: 10px;
+	}
+}
+
+.social-links {
+	padding: 20px;
+
+	&__item {
+		display: inline-block;
+	}
+
+	&__item-link {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border: 3px solid @border-social;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		position: relative;
+		margin-right: 10px;
+		background-color: @bg-body;
+
+		&--twitter {
+			background: url('../img/social-icon.png') 15px 15px no-repeat;
+		}
+		&--facebook {
+			background: url('../img/social-icon.png') -47px 15px no-repeat;
+		}
+		&--play {
+			background: url('../img/social-icon.png') -110px 15px no-repeat;
+		}
+	}
+}
+.footer-copyright {
+	padding: 20px;
+	font-size: @text-size-base;
+	line-height: @line-height-18;
+	font-weight: @weight-regular;
+	color: @color-base;
+
+	&__htmlacademy {
+		display: block;
+		background: url('../img/htmlacademy.png') 200px no-repeat;
+		height: 50px;
+	}
+}

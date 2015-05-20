@@ -1,0 +1,135 @@
+//post
+
+.post {
+	text-align: left;
+	padding: 30px 19px;
+}
+.post-header {
+	border-bottom: 1px solid @border-price;
+	text-align: center;
+	padding-bottom: 30px;
+
+	&__title {
+		font-size: @text-size-30;
+		line-height: @line-height-36;
+		color: @color-base;
+		font-weight: @weight-menu;
+	}
+
+	&__date {
+		font-size: @text-size-date;
+		line-height: @line-height-date;
+		color: @color-red;
+		font-weight: @weight-regular;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+	}
+
+	&__descr {
+		font-size: @text-size-16;
+		line-height: @line-height-date;
+		color: @color-base;
+		font-weight: @weight-regular;
+	}
+}
+.post-story {
+	padding: 30px 0px;
+
+	&__title {
+		font-size: @text-size-menu;
+		line-height: @line-height-30;
+		color: @color-base;
+		font-weight: @weight-menu;
+		text-transform: uppercase;
+		margin: 20px 0 30px 0;
+	}
+
+	&__descr {
+		font-size: @text-size-base;
+		line-height: @line-height-date;
+		color: @color-base;
+		font-weight: @weight-regular;
+	}
+
+	&__link {
+		color: @color-red;
+		text-decoration: underline;
+	}
+}
+.post-hotel {
+	padding-bottom: 30px;
+
+	&__title {
+		margin: 20px 0 30px 0;
+	}
+
+	&__descr {
+		padding-bottom: 30px;
+	}
+
+	&__list-item {
+		padding-bottom: 20px;
+
+		&:before {
+	    color: @color-red;
+	    content: "•";
+	    font-size: @text-size-menu;
+	    font-weight: @weight-regular;
+	    padding-right: 20px;
+   		}
+	}
+
+	&__comment {
+		border-left: 2px solid @border-red;
+		padding-left: 20px;
+	}
+
+	&__comment-descr {
+		padding-bottom: 10px;
+	}
+
+	&__comment-author {
+		color: @color-small;
+		font-size: @text-size-base;
+		line-height: @line-height-date;
+		font-weight: @weight-regular;
+		font-style: italic;
+	}
+}
+.post-food {
+	padding-bottom: 40px;
+
+	&__title {
+		margin: 20px 0 30px 0;
+	}
+}
+.post-pagination {
+
+	&__list-item {
+		display: inline-block;
+		width: 126px;
+		height: 56px;
+		text-align: center;
+		border: 2px solid @border-price;
+		border-radius: 2px;
+		margin-bottom: 20px;
+
+		&:first-child {
+			margin-right: 17px;
+		}
+
+		&:nth-child(3) {
+			width: 276px;
+		}
+	}
+
+	&__btn {
+		display: block;
+		padding: 10px;
+		color: @color-base;
+		font-size: @text-size-menu;
+		line-height: @line-height-30;
+		font-weight: @weight-menu;
+		text-transform: uppercase;
+	}
+}

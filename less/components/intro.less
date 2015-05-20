@@ -1,13 +1,19 @@
 .intro {
-    min-height: 456px;
+    min-height: 196px;
     background: url('../img/intro-bg.jpg') @bg-menu no-repeat;
     color: @color-light;
+
+    &--index {
+        min-height: 456px;
+        color: @color-light;
+        background: url('../img/bg-index-intro.jpg') @bg-menu no-repeat;
+    }
 
     &__title {
         color: @color-light;
         font-weight: @weight-h1;
         font-size: @text-size-h1;
-        padding: 20px 45px;
+        padding: 20px;
     }
 }
 .menu-top {
